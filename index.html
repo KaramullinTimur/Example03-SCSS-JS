@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+
+  <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/site.webmanifest">
+  <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#6f52ed">
+  <link rel="shortcut icon" href="favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#603cba">
+  <meta name="msapplication-config" content="favicon/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <title>Some title</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <!-- MENU -->
+  <section class="menu">
+
+      <div class="menu-logo">
+        <img class="menu-logo-img" src="img/logo.png" alt="logo">
+      </div>
+
+      <nav class="menu-nav">
+        <ul class="menu-nav-list">
+
+          <li class="menu-nav-item">
+            <a href="" class="menu-nav-link">
+              <img class="menu-nav-img" src="svg/folders.svg" alt="Folders">
+            </a>
+          </li>
+
+          <li class="menu-nav-item">
+            <a href="" class="menu-nav-link menu-nav-link-current">
+              <img class="menu-nav-img" src="svg/chart.svg" alt="Folders">
+            </a>
+          </li>
+
+          <li class="menu-nav-item">
+            <a href="" class="menu-nav-link">
+              <img class="menu-nav-img" src="svg/mail.svg" alt="Folders">
+            </a>
+          </li>
+
+          <li class="menu-nav-item">
+            <a href="" class="menu-nav-link">
+              <img class="menu-nav-img" src="svg/files.svg" alt="Folders">
+            </a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="menu-settings">
+          <a href="" class="menu-settings-link">
+            <img class="menu-settings-img" src="svg/settings.svg" alt="Settings">
+          </a>
+      </div>
+
+  </section>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-wrapper">
+
+      <div class="header-hamburger">
+        <div class="header-line"></div>
+        <div class="header-line"></div>
+        <div class="header-line"></div>
+      </div>
+
+      <div class="header-search">
+        <button class="header-search-button"></button>
+        <input class="header-search-input" type="text" placeholder="Search...">
+      </div>
+
+      <div class="header-user">
+        <div class="header-user-container">
+          <h2 class="header-user-title">
+            Cody Simmmons
+          </h2>
+          <p class="header-user-status">
+            Lecturer
+          </p>
+        </div>
+        <a href="" class="header-user-avatar"></a>
+        <div class="header-user-dropdown dropdown">
+          <button class="dropdown-button"></button>
+          <ul class="dropdown-list">
+            <li class="dropdown-item">
+              <a class="dropdown-link" href="">Item 1</a>
+            </li>
+            <li class="dropdown-item">
+              <a class="dropdown-link" href="">Item 2</a>
+            </li>
+            <li class="dropdown-item">
+              <a class="dropdown-link" href="">Item 3</a>
+            </li>
+            <li class="dropdown-item">
+              <a class="dropdown-link" href="">Item 4</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <a href="" class="header-notifications"></a>
+
+      <a href="" class="header-logout"></a>
+
+    </div>
+  </header>
+
+  <!-- DASHBOARD -->
+  <main class="dashboard">
+    <div class="dashboard-wrapper">
+
+      <section class="dashboard-head">
+        <div class="dashboard-head-title">
+          <h1 class="dashboard-head-name">
+            Dashboard
+          </h1>
+          <p class="dashboard-head-desc">
+            Mobile UX/UI Design course
+          </p>
+        </div>
+        <div class="dashboard-head-buttons">
+          <button class="dashboard-head-manage">Manage dashboard</button>
+          <button class="dashboard-head-create">Create new dashboard</button>
+        </div>
+      </section>
+
+      <section class="dashboard-body">
+
+        <!-- Brief card -->
+        <div class="card-brief card_sm">
+          <div class="card-brief-pic">
+            <img class="card-brief-img" src="svg/card/students.svg" alt="students">
+          </div>
+          <div class="card-brief-content">
+            <p class="card-brief-content-value">
+              62
+            </p>
+            <h2 class="card-brief-content-desc">
+              Students 
+            </h2>
+          </div>
+        </div>
+
+        <!-- Brief card -->
+        <div class="card-brief card_sm">
+          <div class="card-brief-pic">
+            <img class="card-brief-img" src="svg/card/mark.svg" alt="average mark">
+          </div>
+          <div class="card-brief-content">
+            <p class="card-brief-content-value">
+              6.8
+            </p>
+            <h2 class="card-brief-content-desc">
+              Average mark 
+            </h2>
+          </div>
+        </div>
+
+        <!-- Brief card -->
+        <div class="card-brief card_sm">
+          <div class="card-brief-pic">
+            <img class="card-brief-img" src="svg/card/underperform.svg" alt="underperforming students ">
+          </div>
+          <div class="card-brief-content">
+            <p class="card-brief-content-value">
+              9 <span class="card-brief-content-added">(14%)</span>
+            </p>
+            <h2 class="card-brief-content-desc">
+              Underperforming students 
+            </h2>
+          </div>
+        </div>
+
+        <!-- Brief card -->
+        <div class="card-brief card_sm">
+          <div class="card-brief-pic">
+            <img class="card-brief-img" src="svg/card/homeworks.svg" alt="finished homeworks">
+          </div>
+          <div class="card-brief-content">
+            <p class="card-brief-content-value">
+              83%
+            </p>
+            <h2 class="card-brief-content-desc">
+              Finished homeworks
+            </h2>
+          </div>
+        </div>
+
+        <!-- Brief card -->
+        <div class="card-graph card_lg">
+          <div class="card-graph-header">
+            <h3 class="card-graph-title">Students number change per month</h3>
+            <div class="card-graph-applied">Applied</div>
+            <div class="card-graph-left">Left</div>
+          </div>
+          <div class="card-graph-plot">
+            <img class="card-graph-plot-img" src="img/plot.png" alt="graph">
+          </div>
+        </div>
+
+        <!-- Average mark card -->
+        <div class="card-mark card_md">
+
+          <div class="card-mark-header">
+            <h2 class="card-mark-header-title">
+              Students by average mark
+            </h2>
+            <div class="card-mark-header-sort">
+              Descending
+            </div>
+            <div class="dropdown">
+              <button class="dropdown-button card-mark-header-dropdown-button"></button>
+              <ul class="dropdown-list">
+                <li class="dropdown-item">
+                  <a class="dropdown-link" href="">Ascending</a>
+                </li>
+                <li class="dropdown-item">
+                  <a class="dropdown-link" href="">Descending</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="card-mark-body">
+            <ul class="card-md-list">
+              
+              <li class="card-mark-person">
+                <img src="img/student-avatar-1.jpg" alt="avatar" class="card-mark-person-avatar">
+                <h3 class="card-mark-person-name">Annette Watson</h3>
+                <div class="card-mark-person-mark">9.3</div>
+              </li>
+
+              <li class="card-mark-person">
+                <img src="img/student-avatar-2.jpg" alt="avatar" class="card-mark-person-avatar">
+                <h3 class="card-mark-person-name">Calvin Steward</h3>
+                <div class="card-mark-person-mark">8.9</div>
+              </li>
+
+              <li class="card-mark-person">
+                <img src="img/student-avatar-3.jpg" alt="avatar" class="card-mark-person-avatar">
+                <h3 class="card-mark-person-name">Ralph Richards</h3>
+                <div class="card-mark-person-mark">8.7</div>
+              </li>
+
+              <li class="card-mark-person">
+                <img src="img/student-avatar-4.jpg" alt="avatar" class="card-mark-person-avatar">
+                <h3 class="card-mark-person-name">Bernard Murphy</h3>
+                <div class="card-mark-person-mark">8.2</div>
+              </li>
+
+              <li class="card-mark-person">
+                <img src="img/student-avatar-5.jpg" alt="avatar" class="card-mark-person-avatar">
+                <h3 class="card-mark-person-name">Arlene Robertson</h3>
+                <div class="card-mark-person-mark">8.2</div>
+              </li>
+
+              <li class="card-mark-person">
+                <img src="img/student-avatar-6.jpg" alt="avatar" class="card-mark-person-avatar">
+                <h3 class="card-mark-person-name">Jane Lane</h3>
+                <div class="card-mark-person-mark">8.1</div>
+              </li>
+
+              <li class="card-mark-person">
+                <img src="img/student-avatar-7.jpg" alt="avatar" class="card-mark-person-avatar">
+                <h3 class="card-mark-person-name">Pat Mckinney</h3>
+                <div class="card-mark-person-mark">7.9</div>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+
+        <!-- Type of studying card -->
+        <div class="card-studying card_md">
+          <div class="card-studying-header">
+            <h2 class="card-studying-header-title">
+              Students by type of studying
+            </h2>
+          </div>
+
+          <div class="card-studying-body">
+            <div class="card-studying-chart">
+              <img class="card-studying-chart-img" src="img/chart.png" alt="chart">
+            </div>
+          
+            <ul class="card-studying-list">
+              <li class="card-studying-item">
+                <h3 class="card-studying-group circle_purple">Groups of 20 students</h3>
+                <div class="card-studying-value">20 <span class="card-studying-value-added">(32%)</span></div>
+              </li>
+
+              <li class="card-studying-item">
+                <h3 class="card-studying-group circle_yellow">Groups of 10 students</h3>
+                <div class="card-studying-value">20 <span class="card-studying-value-added">(32%)</span></div>
+              </li>
+
+              <li class="card-studying-item">
+                <h3 class="card-studying-group circle_red">Groups of 10 students</h3>
+                <div class="card-studying-value">20 <span class="card-studying-value-added">(32%)</span></div>
+              </li>
+
+              <li class="card-studying-item">
+                <h3 class="card-studying-group circle_green">Groups of 10 students</h3>
+                <div class="card-studying-value">20 <span class="card-studying-value-added">(32%)</span></div>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+
+        <!-- Brief card -->
+        <div class="card-brief card_sm">
+          <div class="card-brief-pic">
+            <img class="card-brief-img" src="svg/card/lections.svg" alt="lections left">
+          </div>
+          <div class="card-brief-content">
+            <p class="card-brief-content-value">
+              25
+            </p>
+            <h2 class="card-brief-content-desc">
+              Lections left
+            </h2>
+          </div>
+        </div>
+
+        <!-- Brief card -->
+        <div class="card-brief card_sm">
+          <div class="card-brief-pic">
+            <img class="card-brief-img" src="svg/card/hours.svg" alt="hours spent on lections">
+          </div>
+          <div class="card-brief-content">
+            <p class="card-brief-content-value">
+              139
+            </p>
+            <h2 class="card-brief-content-desc">
+              Hours spent on lections 
+            </h2>
+          </div>
+        </div>
+
+      </section>
+
+    </div>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

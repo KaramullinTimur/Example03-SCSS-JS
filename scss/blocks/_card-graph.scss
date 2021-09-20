@@ -1,0 +1,73 @@
+.card-graph {
+  background: #FFFFFF;
+  border-radius: 10px;
+}
+
+.card-graph-header {
+  padding: 25px 30px 30px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-bottom: 1px solid #EEF0F7;
+}
+
+.card-graph-title {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #000;
+  margin-right: auto;
+}
+
+.card-graph-applied {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+
+  padding-left: 12px;
+  background: url(../../svg/circle-purple.svg) no-repeat left center / 8px;
+  margin-right: 30px;
+}
+
+.card-graph-left {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+
+  padding-left: 12px;
+  background: url(../../svg/circle-red.svg) no-repeat left center / 8px;
+}
+
+.card-graph-plot {
+  padding: 30px 41px 30px 30px;
+  max-width: 759px;
+}
+
+.card-graph-plot-img {
+  width: 100%;
+}
+
+
+
+@media screen and (max-width: 1360px) {
+  .card-graph-header {
+    padding: 20px 24px 24px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .card-graph-header {
+    padding: 15px 18px 18px;
+  }
+}
+
+
+@media screen and (max-width: 576px) {
+  .card-graph-plot {
+    padding: 18px 24px 18px 18px;
+  }
+}

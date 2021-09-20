@@ -1,0 +1,39 @@
+html {
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+*, *::after, *::before {
+	box-sizing: inherit;
+}
+
+html, body, div, span, blockquote,
+h1, h2, h3, h4, h5, h6, p, a,
+img, ol, ul, li, form, label {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+body {
+	font-family: 'Urbanist', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16.48px;
+	color: #A6ACBE;
+}
+
+button, select, input, textarea {
+	font-family: 'Urbanist', sans-serif;
+}
+

@@ -1,0 +1,33 @@
+.card_sm {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+.card_md {
+  grid-column: span 1;
+  grid-row: span 3;
+}
+
+.card_lg {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+
+
+@media screen and (max-width: 576px) {
+  .card_sm {
+    grid-column: span 3;
+    grid-row: span 3;
+  }
+    
+  .card_md {
+    grid-column: span 6;
+    grid-row: span 7;
+  }
+    
+  .card_lg {
+    grid-column: span 6;
+    grid-row: span 4;
+  }
+}

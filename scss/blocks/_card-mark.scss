@@ -1,0 +1,102 @@
+.card-mark {
+  background: #FFFFFF;
+  border-radius: 10px;
+}
+
+.card-mark-header {
+  padding: 25px 23px 25px 30px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-bottom: 1px solid #EEF0F7;
+}
+
+.card-mark-header-title {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #000000;
+  margin-right: auto;
+}
+
+.card-mark-header-sort {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  margin-right: 5px;
+}
+.card-mark-header-dropdown-button {
+  transform: scale(0.8);
+}
+
+.card-mark-body {
+  padding: 30px 40px 35px 30px;
+}
+
+.card-mark-person {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.card-mark-person-avatar {
+  width: 40px;
+  margin-right: 15px;
+}
+
+.card-mark-person-name {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+}
+
+.card-mark-person-mark {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  color: #000000;
+
+  margin-left: auto;
+}
+
+
+
+@media screen and (max-width: 1360px) {
+  .card-mark-header {
+    padding: 20px 18px 20px 24px;
+  }
+    
+  .card-mark-body {
+    padding: 24px 32px 28px 24px;
+  }
+    
+  .card-mark-person {
+    margin-bottom: 20px;
+  }
+    
+  .card-mark-person-avatar {
+    width: 32px;
+    margin-right: 12px;
+  }
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .card-mark-person {
+    margin-bottom: 15px;
+  }
+  
+  .card-mark-person-avatar {
+    width: 24px;
+    margin-right: 9px;
+  }
+}

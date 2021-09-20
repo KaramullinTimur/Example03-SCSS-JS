@@ -1,0 +1,126 @@
+.card-studying {
+  background: #FFFFFF;
+  border-radius: 10px;
+}
+
+.card-studying-header {
+  padding: 25px 23px 25px 30px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #EEF0F7;
+}
+
+.card-studying-header-title {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+
+.card-studying-body {
+  padding: 30px 40px 35px 30px;
+}
+
+.card-studying-chart {
+  max-width: 197px;
+  margin: auto;
+  padding: 18px 0 48px;
+  display: flex;
+  justify-content: center;
+}
+
+.card-studying-chart-img {
+  width: 100%;
+}
+
+.card-studying-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.card-studying-group {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+
+  padding-left: 20px;
+  background: no-repeat left center / 8px;
+
+  &.circle_purple {
+    background-image: url(../../svg/circle-purple.svg);
+  }
+  &.circle_yellow {
+    background-image: url(../../svg/circle-yellow.svg);
+  }
+  &.circle_red {
+    background-image: url(../../svg/circle-red.svg);
+  }
+  &.circle_green {
+    background-image: url(../../svg/circle-green.svg);
+  }
+}
+
+.card-studying-value {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  color: #000;
+}
+
+.card-studying-value-added {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #A6ACBE;
+}
+
+
+
+@media screen and (max-width: 1360px) {
+  .card-studying-header {
+    padding: 20px 18px 20px 24px;
+  }
+  
+  .card-studying-body {
+    padding: 24px 32px 28px 24px;
+  }
+  
+  .card-studying-chart {
+    max-width: 158px;
+    padding: 14px 0 38px;
+  }
+
+  .card-studying-item {
+    margin-bottom: 24px;
+  }
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .card-studying-header {
+    padding: 15px 14px 15px 18px;
+  }
+  
+  .card-studying-body {
+    padding: 18px 24px 21px 18px;
+  }
+  
+  .card-studying-chart {
+    max-width: 118px;
+    padding: 10px 0 28px;
+  }
+  
+  .card-studying-item {
+    margin-bottom: 18px;
+  }
+}

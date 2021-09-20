@@ -1,0 +1,180 @@
+.menu {
+  width: 100px;
+  height: 100vh;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  background-color: #373B53;
+  transition: transform .2s;
+}
+
+.menu-logo {
+  width: 100px;
+  height: 100px;
+
+  background-color: #6F52ED;
+}
+
+.menu-logo-img {
+  width: 54%;
+
+  position: relative;
+  left: 25%;
+  top: 20%;
+}
+
+.menu-nav {
+  margin-top: 35px;
+}
+
+.menu-nav-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+.menu-nav-item {
+    margin-bottom: 15px;
+}
+
+.menu-nav-link {
+  display: block;
+  width: 54px;
+  height: 54px;
+  border-radius: 10px;
+        
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:focus, &:hover {
+    border: 2px solid #fff;
+  }
+}
+
+.menu-nav-link-current {
+  background-color: #fff;
+}
+
+.menu-nav-img {
+  width: 24px;
+}
+
+.menu-settings {
+  width: 100px;
+  height: 100px;
+  margin-top: auto;
+  border-top: 1px solid #494E67;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-settings-link {
+  display: block;
+  width: 54px;
+  height: 54px;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-settings-link:focus, .menu-settings-link:hover {
+  background-color: #585d75;
+}
+
+.menu-settings-img {
+  width: 22px;
+}
+
+
+
+@media screen and (max-width: 1360px) {
+  .menu {
+    width: 80px;
+  }
+
+  .menu-logo {
+    width: 80px;
+    height: 80px;
+  }
+
+  .menu-bav {
+    margin-top: 30px;
+  }
+
+  .menu-nav-link {
+    width: 43px;
+    height: 43px;
+  }
+
+  .menu-nav-img {
+    width: 19px;
+  }
+
+  .menu-settings {
+    width: 80px;
+    height: 80px;
+  }
+
+  .menu-settings-img {
+    width: 18px;
+  }
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .menu {
+    width: 60px;
+  }
+
+  .menu-logo {
+    width: 60px;
+    height: 60px;
+  }
+
+  .menu-bav {
+    margin-top: 25px;
+  }
+
+  .menu-nav-link {
+    width: 32px;
+    height: 32px;
+  }
+
+  .menu-nav-img {
+    width: 14px;
+  }
+
+  .menu-settings {
+    width: 60px;
+    height: 60px;
+  }
+
+  .menu-settings-img {
+    width: 16px;
+  }
+}
+
+
+
+@media screen and (max-width: 576px) {
+  .menu {
+    transform: translateX(-100%);
+  }
+  
+  .menu_shown {
+    transform: translateX(0);
+  }
+}
